@@ -27,7 +27,9 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
+#bigtext {
+	font-size: 36pt
+}
 body {
 	line-height: 1;
 }
@@ -1542,10 +1544,10 @@ input, select, textarea {
 		}
 
 			#header nav a {
-				color: #c6c8c8;
+				color: #f0f0f0;
 				text-decoration: none;
 				font-size: 1.4em;
-				margin-left: 60px;
+				margin-left: 30px;
 				outline: 0;
 			}
 
@@ -1682,6 +1684,15 @@ input, select, textarea {
 			border-bottom: solid 1px #b5bec3;
 		}
 
+/* BPS Logo and motto*/
+	#motto {
+		border-top: solid 1px #b5bec3;
+		box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+		text-align: center;
+		padding: 45px 0 80px 0;
+		color: #8d9ca3;
+		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+	}
 /* Copyright */
 
 	#copyright {
