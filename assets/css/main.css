@@ -38,6 +38,16 @@ ol, ul {
 	list-style: none;
 }
 
+.closelist{
+	padding-left: 0.5;
+}
+
+.dot{
+	list-style-type: circle;
+	list-style-position: inside;
+	padding-left:1em;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -48,8 +58,8 @@ blockquote, q {
 	}
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+	border-spacing: 3;
 }
 
 body {
@@ -101,7 +111,7 @@ input, select, textarea {
 	}
 
 	ul, ol, p, dl {
-		margin: 0 0 2em 0;
+		margin: 0 0 .7em 0;
 	}
 
 	a {
