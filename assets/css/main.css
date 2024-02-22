@@ -58,8 +58,8 @@ blockquote, q {
 	}
 
 table {
-
-	border-spacing: 3;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 body {
