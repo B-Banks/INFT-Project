@@ -9,6 +9,7 @@
 		<title>Explore Courses</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="assets/css/normalize.css" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<link rel="icon" type="image/png" href="../assets/css/images/favicon.png">
@@ -50,7 +51,7 @@
 											<h2>Subject Areas</h2>
 										</header>
 										<ul class="link-list">
-											<li><a href="ela.html">English-Language Arts</a></li>
+											<li><a href="http://127.0.0.1:5500/explore/ela.php">English-Language Arts</a></li>
 											<li><a href="math.html">Mathematics</a></li>
 											<li><a href="science.html">Science</a></li>
 											<li><a href="social_studies.html">Social Studies</a></li>

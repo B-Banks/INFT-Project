@@ -9,38 +9,13 @@
 <body>
     
     <h3>Signup</h3>
-    <form action="includes/formhandler.inc.php" method="post">
-        <input type="text" name="username" placeholder="username">
+    <form class="searchform" action="search.php" method="post">
+        <label for="search">Search for user: </label>
         <br>
-        <input type="password" name="pwd" placeholder="password">
+        <input id="search" type="text" name="usersearch" placeholder="Search...">
         <br>
-        <input type="text" name="email" placeholder="email">
-        <br>
-        <button>Signup!</button>
+        <button>Search</button>
     </form>
-    <br>
-
-    <h3>Change account</h3>
-    <form action="includes/userupdate.inc.php" method="post">
-        <input type="text" name="username" placeholder="username">
-        <br>
-        <input type="password" name="pwd" placeholder="password">
-        <br>
-        <input type="text" name="email" placeholder="email">
-        <br>
-        <button>Update</button>
-    </form>
-    <br>
-
-    <h3>Delete Account</h3>
-    <form action="includes/userdelete.inc.php" method="post">
-        <input type="text" name="username" placeholder="username">
-        <br>
-        <input type="password" name="pwd" placeholder="password">
-        <br>
-        <button>Delete :(</button>
-    </form>
-
 
 </body>
 </html>
