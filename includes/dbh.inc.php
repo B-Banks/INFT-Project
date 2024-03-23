@@ -1,6 +1,6 @@
 <?php
 
-$dsn = "mysql:host=localhost;dbname=bwhs_advising";
+$dsn = "mysql:host=localhost;dbname=bwhsgust_database";
 $dbusername = "root";
 $dbpassword = "";
 
