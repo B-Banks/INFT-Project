@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
     $usersearch = $_POST["usersearch"];
     
     try{
-        require_once "includes/dbh.inc.php";
+        require_once "../includes/dbh.inc.php";
 
         $query = "SELECT * FROM courses WHERE subject = :usersearch;";
 

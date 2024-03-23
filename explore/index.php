@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <h3>Signup</h3>
+    <h3>Search</h3>
     <form class="searchform" action="search.php" method="post">
         <label for="search">Search for user: </label>
         <br>
